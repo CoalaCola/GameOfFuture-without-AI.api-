@@ -12,6 +12,7 @@
 		568038801F31AA9A007D58D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5680387E1F31AA9A007D58D1 /* Main.storyboard */; };
 		568038821F31AA9A007D58D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568038811F31AA9A007D58D1 /* Assets.xcassets */; };
 		568038851F31AA9A007D58D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568038831F31AA9A007D58D1 /* LaunchScreen.storyboard */; };
+		5680388E1F31D26C007D58D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5680388D1F31D264007D58D1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		568038811F31AA9A007D58D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568038841F31AA9A007D58D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568038861F31AA9A007D58D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5680388D1F31D264007D58D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5680388E1F31D26C007D58D1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				568038791F31AA9A007D58D1 /* GameOfFuture(without AI.api) */,
 				568038781F31AA9A007D58D1 /* Products */,
+				5680388C1F31D264007D58D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				568038861F31AA9A007D58D1 /* Info.plist */,
 			);
 			path = "GameOfFuture(without AI.api)";
+			sourceTree = "<group>";
+		};
+		5680388C1F31D264007D58D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5680388D1F31D264007D58D1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +328,7 @@
 				5680388B1F31AA9A007D58D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
